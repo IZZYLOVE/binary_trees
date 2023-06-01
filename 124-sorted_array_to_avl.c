@@ -1,14 +1,14 @@
 #include "binary_trees.h"
 
 /**
-* create_tree - creates an AVL tree with recursion
-*
-* @node: pointer node
-* @array: input array of integers
-* @size: size of array
-* @mode: 1 to adding on the left, 2 to adding on the right
-* Return: no return
-*/
+ * create_tree - creates an AVL tree with recursion
+ *
+ * @node: pointer node
+ * @array: input array of integers
+ * @size: size of array
+ * @mode: 1 to adding on the left, 2 to adding on the right
+ * Return: no return
+ */
 void create_tree(avl_t **node, int *array, size_t size, int mode)
 {
 	size_t middle;

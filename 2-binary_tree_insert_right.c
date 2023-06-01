@@ -2,12 +2,12 @@
 
 /**
  * binary_tree_insert_right - Inserts a node as the right-child
- * of another in a binary tree.
+ *                            of another in a binary tree.
  * @parent: A pointer to the node to insert the right-child in.
  * @value: The value to store in the new node.
  *
  * Return: If parent is NULL or an error occurs - NULL.
- * Otherwise - a pointer to the new node.
+ *         Otherwise - a pointer to the new node.
  *
  * Description: If the parent already has a right-child, then the new node
  *              takes its place and the old right-child is set as

@@ -1,12 +1,12 @@
 #include "binary_trees.h"
 
 /**
-* binary_trees_ancestor - this finds the lowest common ancestor of two nodes.
-* @first: Points to the first node.
-* @second: Points to the second node.
-*
-* Return: If no common ancestors return NULL, else return common ancestor.
-*/
+ * binary_trees_ancestor - this finds the lowest common ancestor of two nodes.
+ * @first: Points to the first node.
+ * @second: Points to the second node.
+ *
+ * Return: If no common ancestors return NULL, else return common ancestor.
+ */
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
 		const binary_tree_t *second)
 {
