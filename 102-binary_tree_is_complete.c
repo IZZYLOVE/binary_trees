@@ -8,12 +8,12 @@ void pop(levelorder_queue_t **head);
 int binary_tree_is_complete(const binary_tree_t *tree);
 
 /**
- * create_node - this creates a new levelorder_queue_t node.
- * @node: The binary tree node for the new node to contain.
- *
- * Return: If an error occurs, NULL.
- *         Otherwise, a pointer to the new node.
- */
+* create_node - this creates a new levelorder_queue_t node.
+* @node: The binary tree node for the new node to contain.
+*
+* Return: If an error occurs, NULL.
+*         Otherwise, a pointer to the new node.
+*/
 levelorder_queue_t *create_node(binary_tree_t *node)
 {
 	levelorder_queue_t *new;
@@ -29,9 +29,9 @@ levelorder_queue_t *create_node(binary_tree_t *node)
 }
 
 /**
- * free_queue - this frees a levelorder_queue_t queue.
- * @head: A pointer to the head of the queue.
- */
+* free_queue - this frees a levelorder_queue_t queue.
+* @head: A pointer to the head of the queue.
+*/
 void free_queue(levelorder_queue_t *head)
 {
 	levelorder_queue_t *tmp;
