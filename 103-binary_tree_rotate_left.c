@@ -1,11 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_rotate_left - This left-rotates a binary tree.
- * @tree: Points to the root node of the tree to rotate.
- *
- * Return: Points to the new root node after rotation.
- */
+* binary_tree_rotate_left - This left-rotates a binary tree.
+* @tree: Points to the root node of the tree to rotate.
+*
+* Return: Points to the new root node after rotation.
+*/
 binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree)
 {
 	binary_tree_t *pivot, *tmp;
